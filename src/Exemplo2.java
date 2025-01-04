@@ -13,6 +13,7 @@ public class Exemplo2 {
         };
     
         // Usando uma lambda
+        // (parametros) -> { corpo }
         Runnable runLambda = () -> System.out.println("Runnable lambda");
         
         runAnonima.run();
