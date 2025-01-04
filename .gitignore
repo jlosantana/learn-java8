@@ -1,0 +1,84 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build directories
+target/
+out/
+build/
+
+# IDEs and Editors
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+out/
+
+### Eclipse ###
+.metadata/
+*.classpath
+*.project
+*.settings/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/.mvn/wrapper/maven-wrapper.jar
+/gradle/wrapper/gradle-wrapper.jar
+
+# Tool-specific
+### Maven ###
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Gradle ###
+.gradle/
+build/
+
+### Lombok ###
+.lombok/
+
+# Test outputs
+/test-output/
+
+# Coverage reports
+/coverage/
+*.ec
+*.exec
+.jacoco/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
